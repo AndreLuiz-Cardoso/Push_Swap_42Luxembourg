@@ -13,11 +13,11 @@
 ---
 <h2> Mandatory </h2>
 <br/>
-1. We have at our disposal, two stacks named a and b.
-2. Create a program that takes as parameters, a random set of numbers (negative or positive), without duplicates. Our program has to handle both types of inputs: as a variable number of command line arguments; a string, i.e. "numbers between quotation marks, seperated by a space".
-3. Implement an algorithm, that sorts in ascending order, the input of random numbers.
-4. Our algorithm will consist of swap, rotate, reverse rotate and push operations.
-5. After taking in an input of numbers, and passing them through our sorting algorithms, our program will output the list of operations (instructions).
+<p>1. We have at our disposal, two stacks named a and b.</p>
+<p>2. Create a program that takes as parameters, a random set of numbers (negative or positive),</p> without duplicates. Our program has to handle both types of inputs: as a variable number of command line arguments; a string, i.e. "numbers between quotation marks, seperated by a space".</p>
+<p>3. Implement an algorithm, that sorts in ascending order, the input of random numbers.</p>
+<p>4. Our algorithm will consist of swap, rotate, reverse rotate and push operations.</p>
+<p>5. After taking in an input of numbers, and passing them through our sorting algorithms, our program will output the list of operations (instructions).</p>
 
 <h2> How it Works </h2>
 </div>
@@ -28,14 +28,14 @@ The goal is to sort data on a stack, with a limited set of instructions, using t
 <br/>
 The Push Swap algorithm takes a list as input and outputs a series of operations that sorts the integers in ascending order. The available operations are:
 <br/>
-* sa: Swap the first two elements of the stack A.
-* sb: Swap the first two elements of the stack B.
-* ss: Swap the first two elements of both stack A and stack B.
-* pa: Push the first element of stack B to stack A.
-* pb: Push the first element of stack A to stack B.
-* ra: Rotate the stack A (move the first element to the end).
-* rb: Rotate the stack B (move the first element to the end).
-* rr: Rotate both stack A and stack B.
-* rra: Reverse rotate the stack A (move the last element to the beginning).
-* rrb: Reverse rotate the stack B (move the last element to the beginning).
-* rrr: Reverse rotate both stack A and stack B.
+<p>* sa: Swap the first two elements of the stack A.</p>
+<p>* sb: Swap the first two elements of the stack B.</p>
+<p>* ss: Swap the first two elements of both stack A and stack B.</p>
+<p>* pa: Push the first element of stack B to stack A.</p>
+<p>* pb: Push the first element of stack A to stack B.</p>
+<p>* ra: Rotate the stack A (move the first element to the end).</p>
+<p>* rb: Rotate the stack B (move the first element to the end).</p>
+<p>* rr: Rotate both stack A and stack B.</p>
+<p>* rra: Reverse rotate the stack A (move the last element to the beginning).</p>
+<p>* rrb: Reverse rotate the stack B (move the last element to the beginning).</p>
+<p>* rrr: Reverse rotate both stack A and stack B.</p>
