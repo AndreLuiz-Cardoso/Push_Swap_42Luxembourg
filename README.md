@@ -24,9 +24,9 @@
 <br/>
 
 The goal is to sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you have to manipulate various types of algorithms and choose the one (of many) most appropriate solutions for optimized data sorting.
-
 <br/>
 The Push Swap algorithm takes a list as input and outputs a series of operations that sorts the integers in ascending order. The available operations are:
+
 <br/>
 <p>* sa: Swap the first two elements of the stack A.</p>
 <p>* sb: Swap the first two elements of the stack B.</p>
